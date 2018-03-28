@@ -1,6 +1,6 @@
 {
   "name": "siwi-mixin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "多个对象合成一个新的对象，新对象具有各个组成成员的接口",
   "main": "index.js",
   "directories": {
@@ -16,7 +16,14 @@
     "type": "git",
     "url": "git+https://github.com/siwilizhao/siwi-mixin.git"
   },
-  "keywords": ["mixin", "siwi-mixin", "siwilizhao", "class", "object", "class mixin"],
+  "keywords": [
+    "mixin",
+    "siwi-mixin",
+    "siwilizhao",
+    "class",
+    "object",
+    "class mixin"
+  ],
   "author": "siwi",
   "license": "MIT",
   "bugs": {
