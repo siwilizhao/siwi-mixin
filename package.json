@@ -17,7 +17,7 @@
   },
   "keywords": ["mixin", "siwi-mixin", "siwilizhao", "class", "object"],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/siwilizhao/siwi-mixin/issues"
   },
