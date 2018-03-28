@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/siwilizhao/siwi-mixin.git"
   },
-  "keywords": ["mixin", "siwi-mixin", "siwilizhao", "class", "object"],
+  "keywords": ["mixin", "siwi-mixin", "siwilizhao", "class", "object", "class mixin"],
   "author": "siwi",
   "license": "MIT",
   "bugs": {
