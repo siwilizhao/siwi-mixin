@@ -1,26 +1,8 @@
-# siwi-mixin
-多个对象合成一个新的对象，新对象具有各个组成成员的接口
-
-# install
-
-# use npm
-
-`npm install siwi-mixin`
-
-# use yarn 
-
-`yarn add siwi-mixin`
-
-# Example
-
-```js
 const Mixin = require('../index')
-class Example {
-    constructor() {
-        this.init()
-    }
-    async init () {
-        const Source1 = class {
+const expect = require('chai').expect
+describe('mixin.js', () => {
+    it('mix', async () => {
+        let Source1 = class {
             constructor() {
                 this.name = 'Mankong'
                 this.age = 24
@@ -46,12 +28,8 @@ class Example {
             }
         }
         const Target = await Mixin.mix(Source1, Source2, Source3)
-        console.log(Reflect.ownKeys(Target.prototype))
         const t = new Target()
         const res = await t.fun3()
-        console.log(t.name)
-        console.log(res)
-    }
-}
-module.exports = new Example()
-```
+        expect(res).to.equal(3)
+    })
+})
