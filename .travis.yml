@@ -5,4 +5,4 @@ node_js:
 - '9'
 
 script:
-- npm run test:cov || npm run test:cov || npm run test:cov
+script: npm run mocha
