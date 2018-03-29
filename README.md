@@ -21,7 +21,7 @@
 # Example
 
 ```js
-const Mixin = require('../index')
+const Mixin = require('siwi-mixin')
 class Example {
     constructor() {
         this.init()
