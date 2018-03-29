@@ -1,6 +1,9 @@
+
+[![node](https://img.shields.io/node/v/siwi-mixin.svg)](https://www.npmjs.com/package/siwi-mixin)
 [![Build Status](https://travis-ci.org/siwilizhao/siwi-mixin.svg?branch=master)](https://travis-ci.org/siwilizhao/siwi-mixin)
 [![npm](https://img.shields.io/npm/v/siwi-mixin.svg)](https://www.npmjs.com/package/siwi-mixin)
 [![npm](https://img.shields.io/npm/dt/siwi-mixin.svg)](https://www.npmjs.com/package/siwi-mixin)
+[![Github file size](https://img.shields.io/github/size/siwilizhao/siwi-mixin/lib/mixin.js.svg)](https://github.com/siwilizhao/siwi-mixin/lib/mixin.js)
 
 # siwi-mixin
 多个对象合成一个新的对象，新对象具有各个组成成员的接口

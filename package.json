@@ -8,8 +8,6 @@
     "test": "test"
   },
   "scripts": {
-    "test": "NODE_ENV=test mocha",
-    "test:cov": "NODE_ENV=test ./node_modules/mocha/bin/_mocha -- -R spec",
     "mocha": "./node_modules/.bin/mocha -u bdd"
   },
   "repository": {
@@ -29,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/siwilizhao/siwi-mixin/issues"
   },
-  "homepage": "https://github.com/siwilizhao/siwi-mixin#readme"
+  "homepage": "https://github.com/siwilizhao/siwi-mixin#readme",
+  "engines": {
+    "node": ">= 8.9"
+  }
 }
